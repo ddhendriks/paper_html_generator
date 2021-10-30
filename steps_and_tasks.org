@@ -1,0 +1,21 @@
+* Steps
+
+Obtaining the data
+1) use the ORCID ID, first and last name of author + the token to use the ads api to fetch all the stuff of the authro
+
+2) weed out all the papers in there
+
+3) Create actual paper objects from that information
+
+   1) Per paper identify if that person is the first author
+
+Managing the data and adding
+1) contain all the papers in a list
+
+2) Take a set of extra papers that the user can provide to the list
+
+3) sort again
+
+
+Generating html
+1) take paper object and turn that to html
